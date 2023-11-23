@@ -20,24 +20,40 @@
     <div class="container">
         <div class="card">
             <h1 class="card_title">BIG Hamburguesa</h1>
+            <h2>$4500</h2>
             <img src="./burger.jpg" alt="" class="card_image" width="400px" height="200px">
             <button class="boton">Comprar</button>
+
             <figcaption class="card_description"></figcaption>
         </div>
         <div class="card">
             <h1 class="card_title">Hamburguesa Bacon</h1>
+            <h2>$3700</h2>
             <img src="./Bacon-King-Carne.png" alt="" class="card_image" width="400px" height="200px">
             <button class="boton">Comprar</button>
+
+            <dialog id="modale">
+               <h2>Deseas comprar esta hamburguesa?</h2>
+               <label><input type="radio" id="si" value="si" name="seleccion">Si</label>
+               <br><br>
+               <label><input type="radio" id="no" value="no" name="seleccion">no</label>
+               <br><br>
+            <button id="confirm">Confirmar</button>
+            </dialog>
+            
+
             <figcaption></figcaption>
         </div>
         <div class="card">
             <h1 class="card_title">Hamburguesa de pollo</h1>
+            <h2>$4100</h2>
             <img src="./Hamburguesa-de-pollo-picante.jpg" alt="" class="card_image" width="400px" height="200px">
             <button class="boton">Comprar</button>
+
             <figcaption></figcaption>
         </div>
         
     </div>
-
+<script src="./modal.js"></script>
 </body>
 </html>

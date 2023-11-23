@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: rgb(204, 161, 81);
+    background-color: rgb(228, 172, 19);
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(126, 77, 54);
     margin: 20px;
 }
 
@@ -25,14 +25,14 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: rgb(197, 51, 15);
     padding: 20px;
 }
 
 a{
     text-decoration: none;
     font-size: 20px;
-    color: red;
+    color: rgb(245, 243, 243);
     margin: 0 20px;
 
 }
@@ -54,6 +54,27 @@ a{
 .boton {
     margin: 20px 10px;
     padding: 20px;
-    background-color: lightblue;
+    background-color: rgb(228, 198, 135);
     border-radius: black;
+}
+
+.boton:hover {
+    background-color: rgb(255, 72, 0);
+}
+
+.container_modal{
+    width: 60%;
+    height: 500px;
+    border: 2px burlywood;
+    border-radius: 30px;
+}
+
+.dismiss{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    border: 2px solid black;
+    font-size: 1,5rem;
+    font-weight: bold;
 }
